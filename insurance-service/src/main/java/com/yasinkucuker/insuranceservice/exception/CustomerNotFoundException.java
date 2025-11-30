@@ -1,0 +1,7 @@
+package com.yasinkucuker.insuranceservice.exception;
+
+public class CustomerNotFoundException extends  RuntimeException{
+    public CustomerNotFoundException(String message){
+        super(message);
+    }
+}
